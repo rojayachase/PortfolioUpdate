@@ -2,6 +2,8 @@
 # exit on error
 set -o errexit
 
+#Render pip version error, install manually
+pip install --upgrade pip
 # Install all external dependencies
 pip install -r requirements.txt
 # Build all static assets
