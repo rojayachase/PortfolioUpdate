@@ -3,8 +3,8 @@ asgiref==3.7.2
 #backports.zoneinfo==0.2.1
 # install manually in build.sh error show
 #Django==4.2.5
-django-ckeditor==6.7.0
-django-js-asset==2.1.0
+#django-ckeditor==6.7.0
+#django-js-asset==2.1.0
 Pillow==10.0.1
 pytz==2023.3.post1
 sqlparse==0.4.4
