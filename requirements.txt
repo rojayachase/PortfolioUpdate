@@ -1,7 +1,8 @@
 asgiref==3.7.2
 # removed this dependency - don't know what what do we need it
 #backports.zoneinfo==0.2.1
-Django==4.2.5
+# install manually in build.sh error show
+#Django==4.2.5
 django-ckeditor==6.7.0
 django-js-asset==2.1.0
 Pillow==10.0.1
