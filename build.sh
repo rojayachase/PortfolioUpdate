@@ -6,6 +6,8 @@ set -o errexit
 pip install --upgrade pip
 #Render Django error Django==4.2.5 no matching distribution 
 pip install django
+pip install django-ckeditor
+pip install django-js-asset
 # Install all external dependencies
 pip install -r requirements.txt
 # Build all static assets
