@@ -4,6 +4,8 @@ set -o errexit
 
 #Render pip version error, install manually
 pip install --upgrade pip
+#Render Django error Django==4.2.5 no matching distribution 
+pip install django
 # Install all external dependencies
 pip install -r requirements.txt
 # Build all static assets
