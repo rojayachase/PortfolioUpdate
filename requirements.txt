@@ -8,6 +8,6 @@ asgiref==3.7.2
 #Pillow==10.0.1
 pytz==2023.3.post1
 sqlparse==0.4.4
-typing_extensions==4.8.0
-gunicorn==21.0.1
-whitenoise==6.5.0
+#typing_extensions==4.8.0
+#gunicorn==21.0.1
+#whitenoise==6.5.0
