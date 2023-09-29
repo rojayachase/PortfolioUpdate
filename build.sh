@@ -8,6 +8,7 @@ pip install --upgrade pip
 pip install django
 pip install django-ckeditor
 pip install django-js-asset
+pip install Pillow
 # Install all external dependencies
 pip install -r requirements.txt
 # Build all static assets
