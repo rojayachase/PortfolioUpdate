@@ -37,7 +37,9 @@ Start Content
       <div class="row g-4 g-md-3  align-items-center">
         <div class="col-md-auto order-md-last">
           <div class="bannerUserImg">
-            <img src="{{me.userprofile.avatar.url}}" alt="{{me.first_name|title}} {{me.last_name|title}} avatar">
+            {% comment %} <img src="{{me.userprofile.avatar.url}}" alt="{{me.first_name|title}} {{me.last_name|title}} avatar"> {% endcomment %}
+            <img src="media/avatar/avatar.png" alt="{{me.first_name|title}} {{me.last_name|title}} avatar">
+          
           </div>
         </div>
         <div class="col-md">
@@ -47,7 +49,9 @@ Start Content
             <div class="bannerBtnCol">
               <div class="row">
                 <div class="col-auto">
-                  <a download href="{{me.userprofile.cv.url}}" class="btn btnPrimary">Download Resume</a>
+                  {% comment %} <a download href="{{me.userprofile.cv.url}}" class="btn btnPrimary">Download Resume</a> {% endcomment %}
+                  <a download href="media/cv/RojayChaseDev.pdf" class="btn btnPrimary">Download Resume</a>
+
                 </div>
                 <div class="col-auto">
                   <a href="{% url 'main:contact' %}" class="btn btnOutline">Contact</a>
